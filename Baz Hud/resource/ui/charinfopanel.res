@@ -112,15 +112,16 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"27"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"39"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
