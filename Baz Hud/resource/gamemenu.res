@@ -2,46 +2,11 @@
 
 "GameMenu"
 {
-	"ResumeGameButton"
-	{
-		"label"			""
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"tooltip"		"Resume Game"
-	}
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers"
 		"command" "OpenServerBrowser"
-		"OnlyAtMenu" "1"
-	}
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer"
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"OnlyAtMenu" "0"
 	}
 	"ReplayBrowserButton"
 	{
@@ -49,19 +14,6 @@
 		"command" "engine replay_reloadbrowser"
 		"tooltip"	"Replays"
 		"OnlyAtMenu" "1"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"VRModeButton"
-	{
-		"label" "Activate VR"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
 	}
 	"TrainingButton"
 	{
