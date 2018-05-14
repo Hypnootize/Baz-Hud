@@ -277,13 +277,15 @@
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"timePos"
-		"NegativeColor"		"timeNeg"
+		"NegativeColor"			"timeNeg"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"CounterFont"
 		
 		if_match
 		{
-			"zpos"				"4"
+			"xpos"				"c-47"
+			"ypos"				"-16"
+			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
@@ -304,7 +306,8 @@
 			
 			if_match
 			{
-				
+				"ypos"		"0"
+				"font"		"NewFontSmall"
 			}
 		}	
 	}

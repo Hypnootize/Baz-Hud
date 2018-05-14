@@ -1,6 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
-	
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -13,8 +12,8 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"r285"
+		"ypos"				"r145"
 		"zpos"				"2"
 		"wide"				"260"
 		"tall"				"120"
@@ -24,18 +23,19 @@
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"timePos"
-		"NegativeColor"		"timeNeg"
+		"NegativeColor"			"timeNeg"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"CounterFont"
 		
 		if_match
 		{
-			
+			"xpos"				"c-68"
+			"ypos"				"-40"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"NewFontBig"
 			"fgcolor"		"timeBlu"
@@ -46,12 +46,12 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				
+				"font"		"NewFontSmall"
 			}
 		}	
 	}
@@ -60,8 +60,8 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"105"
-		"ypos"				"0"
+		"xpos"				"r180"
+		"ypos"				"r145"
 		"zpos"				"2"
 		"wide"				"260"
 		"tall"				"120"
@@ -71,13 +71,14 @@
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"timePos"
-		"NegativeColor"		"timeNeg"
+		"NegativeColor"			"timeNeg"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"CounterFont"
 		
 		if_match
 		{
-			
+			"xpos"				"c-31"
+			"ypos"				"-40"
 		}
 		
 		"TimePanelValue"
@@ -98,7 +99,7 @@
 			
 			if_match
 			{
-				
+				"font"		"NewFontSmall"
 			}
 		}
 	}
@@ -106,23 +107,28 @@
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"35"
+		"fieldName"			"ActiveTimerBG"
+		"xpos"				"r285"
+		"ypos"				"r110"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
 		"border"			"timeCapActive"
+		
+		if_match
+		{
+			"wide"			"0"	
+		}
 	}
 
 	"bluCap"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"bluCap"
-		"xpos"				"0"
-		"ypos"				"35"
+		"fieldName"			"bluCap"
+		"xpos"				"r285"
+		"ypos"				"r110"
 		"zpos"				"0"
 		"wide"				"100"
 		"tall"				"40"
@@ -137,9 +143,9 @@
 	"redCap"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"redCap"
-		"xpos"				"105"
-		"ypos"				"35"
+		"fieldName"			"redCap"
+		"xpos"				"r180"
+		"ypos"				"r110"
 		"zpos"				"0"
 		"wide"				"100"
 		"tall"				"40"
