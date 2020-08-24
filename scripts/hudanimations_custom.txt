@@ -152,3 +152,17 @@ event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup	Size	"0 55"	Spline 0.001 0.2
 }
+
+//===========================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================
