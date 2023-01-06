@@ -80,8 +80,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}
 
@@ -98,6 +97,11 @@
 		"visible_minmode"	"0"
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 100"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	///Top///////							
 	"BlueTeamLabel"
@@ -432,7 +436,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"ClassImage"
@@ -451,7 +455,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -473,7 +477,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}	
 							
@@ -500,7 +504,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -1911,8 +1915,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
