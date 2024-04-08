@@ -13,9 +13,3 @@
 ![Health & Ammo Low](../screenshots/03_Health_Ammo_Low.jpg)
 ![Scoreboard](../screenshots/04_Scoreboard.jpg)
 ![Win & Damage](../screenshots/05_Win.jpg)
-
-<div align="left">
-
-### CONTRIBUTORS
-- **Hypnotize** - Updates
-- **Terandr**
